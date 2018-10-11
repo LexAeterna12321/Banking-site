@@ -37,14 +37,16 @@ main .mainSection1 div.box {
     box-shadow: 0 0 6px 1px rgba(220, 220, 220, 0.5);
 
     &.box1 {
+        position: relative;
         border-top-left-radius: $border-radius;
-        transform: translateY(-15%);
+        transform: translateY(-120px);
     }
 
     &.box2 {
+        position: relative;
         border-top-left-radius: $border-radius;
         border-top-right-radius: $border-radius;
-        transform: translateY(-20%);
+        transform: translateY(-130px);
 
         button {
             margin-top: 10%;
@@ -57,8 +59,9 @@ main .mainSection1 div.box {
     }
 
     &.box3 {
+        position: relative;
         border-top-right-radius: $border-radius;
-        transform: translateY(-15%);
+        transform: translateY(-120px);
     }
 
     div {
