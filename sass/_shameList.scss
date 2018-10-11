@@ -1,0 +1,10 @@
+.mainSection1BottomList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    & li {
+        flex-basis: 20%;
+    }
+}

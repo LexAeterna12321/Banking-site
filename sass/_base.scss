@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-image: linear-gradient($main-color);
+    overflow: hidden;
+}
+
+html {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 10px;
+}
